@@ -1,0 +1,27 @@
+#conteudo {
+    background: url('imagens/casamento3.jpg') no-repeat center center fixed; /* Caminho da imagem de fundo */
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o conteúdo */
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.btn {
+    background: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer; /* Adicionado para indicar que o botão é clicável */
+}
+
+/* Adicionado para definir a posição do botão 'NÃO' */
+.btn-no {
+    position: absolute;
+}
